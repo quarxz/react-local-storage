@@ -66,3 +66,43 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+form label,
+p {
+  text-align: left;
+}
+button {
+  display: block;
+  margin-top: 1em;
+}
+
+.counter-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.counter-content p {
+  text-align: center;
+}
+
+.counter-content button {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.counter {
+  border: 1px solid #646cff;
+  text-align: center;
+  font-size: 3em;
+  padding: 10px;
+  border-radius: 1em;
+  margin-bottom: 0;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
